@@ -42,7 +42,8 @@
   z-index: 10;
 }
 
-#pause_button {
+#pause_button,
+.return-home {
   width: 200px;
   font-size: 18px;
   padding: 10px;
@@ -52,27 +53,10 @@
   cursor: pointer;
   border-radius: 8px;
   margin-bottom: 12px; 
-}
-
-#pause_button:hover {
-  background: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-
-
-.return-home {
-  display: inline-block;
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  border-radius: 8px;
   transition: 0.3s ease;
 }
 
+#pause_button:hover,
 .return-home:hover {
   background: rgba(255, 255, 255, 0.8);
   color: black;
