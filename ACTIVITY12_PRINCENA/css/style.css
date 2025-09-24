@@ -1,21 +1,19 @@
-/* Background video */
 #urvid {
   position: fixed;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1; /* video behind everything */
+  z-index: -1; 
 }
 
 .button-container {
   text-align: center;
   margin-top: 15px;
   position: relative;
-  z-index: 10; /* ensures button is above video */
+  z-index: 10; 
 }
 
-/* Page title container */
 .title-content {
   text-align: center;
   margin-top: 20px;
@@ -23,7 +21,6 @@
   position: relative;
 }
 
-/* Title styling */
 .title {
   font-size: 2.5em;
   font-weight: bold;
@@ -34,7 +31,6 @@
   display: inline-block;
 }
 
-/* Marquee content */
 .content {
   position: relative;
   margin: 40px auto;
@@ -46,15 +42,6 @@
   z-index: 10;
 }
 
-/* Button container */
-.button-container {
-  text-align: center;
-  margin-top: 15px;
-  z-index: 10;
-  position: relative;
-}
-
-/* Button styling */
 #pause_button {
   width: 200px;
   font-size: 18px;
@@ -64,9 +51,29 @@
   color: #fff;
   cursor: pointer;
   border-radius: 8px;
+  margin-bottom: 12px; 
 }
 
 #pause_button:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+
+.return-home {
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.return-home:hover {
   background: rgba(255, 255, 255, 0.8);
   color: black;
 }
