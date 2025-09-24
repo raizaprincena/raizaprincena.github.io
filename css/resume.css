@@ -72,3 +72,25 @@ div {
 .references {
   margin-top: 20px;
 }
+
+/* Return Home button */
+.return-home {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.return-home a {
+  display: inline-block;
+  background: #007BFF;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.return-home a:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
