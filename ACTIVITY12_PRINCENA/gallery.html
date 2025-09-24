@@ -4,20 +4,20 @@
   <meta charset="UTF-8">
   <title>Gallery</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="it_js/myvid.js"></script>
 </head>
 <body>
 
-  <!-- Background Video -->
   <video autoplay muted loop id="urvid">
     <source src="vid.mp4" type="video/mp4">
   </video>
 
-  <!-- Page Title -->
+
   <div class="title-content">
     <h1 class="title">My Gallery</h1>
   </div>
 
-  <!-- Gallery Section -->
+ 
   <div class="content">
     <marquee id="myMarquee" behavior="scroll" direction="left" scrollamount="5">
       <img src="images/1.jpeg" height="200">
@@ -34,11 +34,12 @@
     </marquee>
   </div>
 
-  <!-- Return Button -->
-  <div class="return-container">
-    <a href="../index.html" class="return-home">Return to Home</a>
+  
+  <div class="button-container">
+    <button id="pause_button" onclick="myFunction()">Pause</button>
+    <br><br>
+    <button onclick="window.location.href='../index.html'">Return to Home</button>
   </div>
 
 </body>
 </html>
-
