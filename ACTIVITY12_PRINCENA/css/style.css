@@ -54,6 +54,8 @@
   border-radius: 8px;
   margin-bottom: 12px; 
   transition: 0.3s ease;
+  display: inline-block;
+  text-align: center;
 }
 
 #pause_button:hover,
