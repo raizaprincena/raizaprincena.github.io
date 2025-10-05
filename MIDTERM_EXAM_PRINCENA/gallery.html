@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="css/midterm.css">
+  <script src="it_js/myvid.js"></script>
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Raiza Princena</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">My Resume</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <video autoplay muted loop id="urvid">
+    <source src="vid.mp4" type="video/mp4">
+  </video>
+
+  <div class="title-content">
+    <h1 class="title">My Gallery</h1>
+  </div>
+
+  <div class="content">
+    <marquee id="myMarquee" behavior="scroll" direction="left" scrollamount="5">
+      <img src="images/1.jpeg" height="200">
+      <img src="images/2.jpeg" height="200">
+      <img src="images/3.jpeg" height="200">
+      <img src="images/4.jpeg" height="200">
+      <img src="images/5.jpeg" height="200">
+      <img src="images/6.jpeg" height="200">
+      <img src="images/7.jpeg" height="200">
+      <img src="images/8.jpeg" height="200">
+      <img src="images/9.jpeg" height="200">
+      <img src="images/10.jpeg" height="200">
+      <img src="images/11.jpeg" height="200">
+    </marquee>
+  </div>
+
+  <div class="button-container">
+    <button id="pause_button" onclick="document.getElementById('myMarquee').stop()">Pause</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Raiza Princena | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
