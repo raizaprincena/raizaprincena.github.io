@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Raiza B. Princena</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header fixed-top">
+    <div class="container-fluid container-xl">
+      <nav class="nav-bar d-flex align-items-center justify-content-between">
+        <a href="index.html" class="brand d-flex align-items-center">
+          <img src="images/resumepic.jpg" alt="Raiza Princena" class="brand-avatar">
+          <div class="brand-text">
+            <span class="brand-name">Raiza B. Princena</span>
+            <small class="brand-sub">Future Software Engineer & Web Developer</small>
+          </div>
+        </a>
+        <button class="nav-toggle" id="navTogglePortfolio" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links" id="navLinksPortfolio">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mt-5 pt-4">
+    <section class="container container-xl py-5">
+      <div class="section-header d-flex align-items-center justify-content-between">
+        <h1 class="section-title">Projects</h1>
+        <div>
+          <a href="resume.pdf" class="btn btn-outline-secondary" download>Download Resume (PDF)</a>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-3">
+        <!-- ===== PROJECT 1: Volleyball Quiz Game ===== -->
+        <div class="col-md-6 col-lg-6">
+          <article class="project-card">
+            <img src="images/vquiz.jpg" alt="Volleyball Quiz Game">
+            <div class="project-body">
+              <h5>Volleyball Quiz Game</h5>
+              <p>This interactive web app reflects my love for <strong>volleyball</strong> — my favorite sport. It challenges players’ knowledge about volleyball rules, history, and players through timed questions and scores. It demonstrates my ability to create logic-driven, enjoyable web experiences.</p>
+              <p><strong>Languages Used:</strong> HTML, CSS, JavaScript</p>
+              <a href="https://raizaprincena.github.io/voleyballquiz.github.io" class="btn-view">View Project</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== PROJECT 2: Number Guessing Game ===== -->
+        <div class="col-md-6 col-lg-6">
+          <article class="project-card">
+            <img src="images/guess.jpg" alt="Number Guessing Game">
+            <div class="project-body">
+              <h5>Number Guessing Game</h5>
+              <p>A fun and simple guessing game where users try to find a randomly generated number. It highlights my understanding of <strong>JavaScript interactivity</strong> and DOM manipulation, offering an enjoyable logic-based experience with instant feedback.</p>
+              <p><strong>Languages Used:</strong> HTML, CSS, JavaScript</p>
+              <a href="https://raizaprincena.github.io/numberguessing.github.io" class="btn-view">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bg-dark text-light">
+    <div class="container container-xl py-4 d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <div>
+        <p class="mb-1">© 2025 Raiza B. Princena</p>
+        <p class="mb-0 small">Email: <a href="mailto:raizaprincena@gmail.com" class="footer-link">raizaprincena@gmail.com</a></p>
+      </div>
+      <div class="d-flex gap-3">
+        <a href="https://github.com/raizaprincena" class="social"><i class="fa-brands fa-github"></i></a>
+        <a href="https://facebook.com/raizaprincena" class="social"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com/raizaprincena" class="social"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
